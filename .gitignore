@@ -1,0 +1,29 @@
+# Binary
+nettrap
+/nettrap
+
+# Build artifacts
+dist/
+
+# Test artifacts
+*.test
+coverage.out
+coverage.html
+
+# nettrap runtime artifacts
+nettrap-*.json
+*.pcapng
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Go module cache (for vendor mode)
+vendor/
+
+# Shell completion outputs
+completions/
